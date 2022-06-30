@@ -15,4 +15,16 @@
       left: 50%;
       transform: translatex(-50%);
     }
-  }
+}
+
+
+.header-area .main-menu .navbar .container-fluid .navbar-brand
+{
+    padding: 0 0 0 7rem;
+}
+
+
+.header-area .main-menu .navbar .container-fluid .order-3 .navbar-nav
+{
+    padding: 0 7rem 0 0;
+}
