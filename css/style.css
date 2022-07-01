@@ -1,9 +1,12 @@
 /* importing fonts from fonts.css file */
 @import url(/css/fonts.css);
 
+
+
+/* =============== nav bar =============== */
 .main-menu
 {
-    background-image: linear-gradient(to right, rgb(0, 164, 175) , rgb(255, 152, 255));
+    background-image: linear-gradient(to right, rgb(2, 140, 150) , rgb(80, 243, 255), rgb(246, 182, 255));
 }
 
 
@@ -18,13 +21,47 @@
 }
 
 
-.header-area .main-menu .navbar .container-fluid .navbar-brand
+.header-area .main-menu .navbar .container-fluid
 {
-    padding: 0 0 0 7rem;
+    padding: 2rem 0 5rem 9rem;
 }
 
 
 .header-area .main-menu .navbar .container-fluid .order-3 .navbar-nav
 {
-    padding: 0 7rem 0 0;
+    padding-right: 9rem;
+} 
+
+/*.header-area .main-menu .navbar .navbar-nav .navbar-center
+{
+    padding: 1rem 0 5rem 7rem;
+} */
+
+
+
+
+
+
+
+
+
+
+/* =============== banner =============== */
+.site-main .site-banner
+{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(2, 140, 150) , rgb(80, 243, 255), rgb(246, 182, 255));
+    padding-left: 6rem;
+}
+
+.site-main .site-banner .site-title h1
+{
+    font-weight: 800;
+}
+
+.site-main .site-banner .banner-image > img
+{
+    padding: 0 9rem 0 4rem;
+    width: 90rem;
 }
