@@ -2,6 +2,19 @@
 @import url(/css/fonts.css);
 
 
+.hero
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* width: 1280px;
+    height: 930px; */
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(166.97deg, #38ADAE 8.59%, #6BA4AD 35.48%, #80A0AC 46.64%, #8D9EAC 53.24%, #F18CAA 106.01%);
+}
+
 
 /* =============== nav bar =============== */
 .main-menu
@@ -31,6 +44,56 @@
 {
     padding-right: 9rem;
 } 
+
+
+#about
+{
+    position: absolute;
+    width: 54px;
+    height: 27px;
+    left: -65px;
+    top: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#my-works
+{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 0px;
+    top: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}   
+
+#contact
+{
+    position: absolute;
+    width: 74px;
+    height: 27px;
+    left: 602px;
+    top: 49px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
 
 /*.header-area .main-menu .navbar .navbar-nav .navbar-center
 {
