@@ -82,17 +82,10 @@
     left: 60px;
     top: 30px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-/* identical to box height */
-
-display: flex;
-align-items: center;
-
-color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 /*.header-area .main-menu .navbar .navbar-nav .navbar-center
