@@ -86,6 +86,27 @@
     font-size: 18px;
 }
 
+
+#upwork-logo
+{
+    position: absolute;
+width: 35px;
+height: 35px;
+left: 1050px;
+top: 40px;
+}
+
+#upwork-logo-img
+{
+    position: absolute;
+left: 7.58%;
+right: 5.64%;
+top: 25.75%;
+bottom: 11.99%;
+
+background: #000000;
+}
+
 #linkedin-logo
 {
     position: absolute;
@@ -97,7 +118,9 @@
 
 #linkedin-logo-img
 {
-    
+    position: absolute;
+    left: 0%;
+    right: 0%;
 }
 /*.header-area .main-menu .navbar .navbar-nav .navbar-center
 {
