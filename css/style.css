@@ -86,8 +86,19 @@
     font-size: 18px;
 }
 
+#linkedin-logo
+{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1100px;
+    top: 40px;
+}
 
-
+#linkedin-logo-img
+{
+    
+}
 /*.header-area .main-menu .navbar .navbar-nav .navbar-center
 {
     padding: 1rem 0 5rem 7rem;
