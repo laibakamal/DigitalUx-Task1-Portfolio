@@ -5,10 +5,8 @@
 .hero
 {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    /* width: 1280px;
-    height: 930px; */
+    width: 70%;
+    height: 90%;
     left: 0px;
     top: 0px;
 
@@ -19,7 +17,7 @@
 /* =============== nav bar =============== */
 .main-menu
 {
-    background-image: linear-gradient(to right, rgb(2, 140, 150) , rgb(80, 243, 255), rgb(246, 182, 255));
+
 }
 
 
@@ -51,8 +49,8 @@
     position: absolute;
     width: 54px;
     height: 27px;
-    left: -65px;
-    top: 30px;
+    left: -180px;
+    top: -10px;
 
     font-family: 'Poppins';
     font-style: normal;
@@ -63,10 +61,10 @@
 #my-works
 {
     position: absolute;
-    width: 100px;
+    width: 120px;
     height: 27px;
-    left: 0px;
-    top: 30px;
+    left: -95px;
+    top: -10px;
 
     font-family: 'Poppins';
     font-style: normal;
@@ -79,8 +77,8 @@
     position: absolute;
     width: 74px;
     height: 27px;
-    left: 60px;
-    top: 30px;
+    left: 20px;
+    top: -10px;
 
     font-family: 'Poppins';
     font-style: normal;
@@ -107,7 +105,6 @@
 {
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(to right, rgb(2, 140, 150) , rgb(80, 243, 255), rgb(246, 182, 255));
     padding-left: 6rem;
 }
 
