@@ -2,6 +2,36 @@
 @import url(/css/fonts.css);
 
 
+
+
+
+.form-control-dark {
+    border-color: var(--bs-gray);
+  }
+  .form-control-dark:focus {    
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+  }
+  
+  .text-small {
+    font-size: 85%;
+  }
+  
+  .dropdown-toggle {
+    outline: 0;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
 .hero
 {
     position: absolute;
@@ -9,16 +39,37 @@
     height: 90%;
     left: 0px;
     top: 0px;
+    z-index: -10;
 
-    background: linear-gradient(166.97deg, #38ADAE 8.59%, #6BA4AD 35.48%, #80A0AC 46.64%, #8D9EAC 53.24%, #F18CAA 106.01%);
+    background-image: linear-gradient(166.97deg, #38ADAE 8.59%, #6BA4AD 35.48%, #80A0AC 46.64%, #8D9EAC 53.24%, #F18CAA 106.01%);
 }
 
+
+
+#logo-rect1
+{
+    position: absolute;
+width: 15px;
+height: 31px;
+left: 5%;
+top: 4%;
+
+background: #CAEBEB;
+border-radius: 15px;
+}
+
+#logo-rect2
+{
+    position: absolute;
+width: 15px;
+height: 21px;
+margin-left: 2px !important;
+left: 6.5%;
+top: 4%;
+}
 
 /* =============== nav bar =============== */
-.main-menu
-{
 
-}
 
 
 @media (min-width: 768px) 
@@ -93,18 +144,12 @@
 width: 35px;
 height: 35px;
 left: 1050px;
-top: 40px;
+top: 25%;
 }
 
 #upwork-logo-img
 {
     position: absolute;
-left: 7.58%;
-right: 5.64%;
-top: 25.75%;
-bottom: 11.99%;
-
-background: #000000;
 }
 
 #linkedin-logo
@@ -113,14 +158,12 @@ background: #000000;
     width: 24px;
     height: 24px;
     left: 1100px;
-    top: 40px;
+    top: 23%;
 }
 
 #linkedin-logo-img
 {
     position: absolute;
-    left: 0%;
-    right: 0%;
 }
 /*.header-area .main-menu .navbar .navbar-nav .navbar-center
 {
@@ -154,3 +197,27 @@ background: #000000;
     padding: 0 9rem 0 4rem;
     width: 90rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
