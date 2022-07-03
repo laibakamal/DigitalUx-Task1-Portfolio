@@ -80,12 +80,6 @@
 
 #about
 {
-    position: absolute;
-    width: 54px;
-    height: 27px;
-    left: -180px;
-    top: -10px;
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -94,12 +88,6 @@
 
 #my-works
 {
-    position: absolute;
-    width: 120px;
-    height: 27px;
-    left: -95px;
-    top: -10px;
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -108,12 +96,6 @@
 
 #contact
 {
-    position: absolute;
-    width: 74px;
-    height: 27px;
-    left: 20px;
-    top: -10px;
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
