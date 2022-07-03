@@ -35,7 +35,7 @@
 .hero
 {
     position: absolute;
-    width: 70%;
+    width: 75%;
     height: 90%;
     left: 0px;
     top: 0px;
@@ -55,27 +55,8 @@
 
 
 
-@media (min-width: 768px) 
-{
-    .navbar-nav.navbar-center 
-    {
-      position: absolute;
-      left: 50%;
-      transform: translatex(-50%);
-    }
-}
 
 
-.header-area .main-menu .navbar .container-fluid
-{
-    padding: 2rem 0 5rem 9rem;
-}
-
-
-.header-area .main-menu .navbar .container-fluid .order-3 .navbar-nav
-{
-    padding-right: 9rem;
-} 
 
 
 #about
@@ -84,6 +65,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
+    color: #CAEBEB;
 }
 
 #my-works
@@ -92,6 +74,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
+    color: #CAEBEB;
 }   
 
 #contact
@@ -100,6 +83,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
+    color: #CAEBEB;
 }
 
 
@@ -112,10 +96,6 @@ left: 1050px;
 top: 25%;
 }
 
-#upwork-logo-img
-{
-    position: absolute;
-}
 
 #linkedin-logo
 {
@@ -126,42 +106,6 @@ top: 25%;
     top: 23%;
 }
 
-#linkedin-logo-img
-{
-    position: absolute;
-}
-/*.header-area .main-menu .navbar .navbar-nav .navbar-center
-{
-    padding: 1rem 0 5rem 7rem;
-} */
-
-
-
-
-
-
-
-
-
-
-/* =============== banner =============== */
-.site-main .site-banner
-{
-    height: 100%;
-    width: 100%;
-    padding-left: 6rem;
-}
-
-.site-main .site-banner .site-title h1
-{
-    font-weight: 800;
-}
-
-.site-main .site-banner .banner-image > img
-{
-    padding: 0 9rem 0 4rem;
-    width: 90rem;
-}
 
 
 
@@ -178,9 +122,14 @@ top: 25%;
 
 
 
+/* 
+My Projects:
+https://getbootstrap.com/docs/5.2/examples/heroes/
 
+About me:
+https://getbootstrap.com/docs/5.2/examples/heroes/
 
-
+*/
 
 
 
