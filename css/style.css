@@ -45,27 +45,10 @@
 }
 
 
-
-#logo-rect1
+#logo
 {
-    position: absolute;
-width: 15px;
-height: 31px;
-left: 5%;
-top: 4%;
-
-background: #CAEBEB;
-border-radius: 15px;
-}
-
-#logo-rect2
-{
-    position: absolute;
-width: 15px;
-height: 21px;
-margin-left: 2px !important;
-left: 6.5%;
-top: 4%;
+    width: 20%;
+    height: 10%;
 }
 
 /* =============== nav bar =============== */
